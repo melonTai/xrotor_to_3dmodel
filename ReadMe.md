@@ -1,5 +1,5 @@
 -----
-# xrotor設計ファイル 3Dモデル化スクリプト[
+# xrotor設計ファイル 3Dモデル化スクリプト
 -----
 
 # 概要
@@ -13,7 +13,7 @@ xrotor_to_3dmodelは[xrotor](http://web.mit.edu/drela/Public/web/xrotor/)によ�
 
 ## 入力
 
-下記1~4はxrotor_to_design(https://github.com/melonTai/xrotor_to_design)と同様
+下記1~4は[xrotor_to_design](https://github.com/melonTai/xrotor_to_design)と同様
 1. xrotor_restartfile
 1. main_foil_path
 1. sub_foil_path
