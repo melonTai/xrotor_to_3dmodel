@@ -302,7 +302,7 @@ class PropDesign():
             for p in airfoil_data:
                 px = (p[0] - self.rib_center) * cmod
                 py = (p[1] - rib_center_camber) * cmod
-                nx = px * math.cos(rot) - py * math.sin(rot) + x
+                nx = px * math.cos(rot) - py * math.sin(rot)
                 ny = px * math.sin(rot) + py * math.cos(rot)
                 airfoil_poly.append([nx, ny])
 
@@ -641,7 +641,7 @@ def run(context):
         _ui = _app.userInterface
 
         # Get the existing command definition or create it if it doesn't already exist.
-        cmdDef = _ui.commandDefinitions.itemById('xrotToFusionSketch')
+        cmdDef = _ui.commandDefinitions.itemById('XrotorTo3DModel')
         if not cmdDef:
             cmdDef = _ui.commandDefinitions.addButtonDefinition('XrotorTo3DModel', 'Xrotor To 3DModel', 'Sample to demonstrate various command inputs.')
 
